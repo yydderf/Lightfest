@@ -1,0 +1,23 @@
+bracketSpacing: false
+singleQuote: true
+trailingComma: 'es5'
+printWidth: 80
+parser: 'flow'
+arrowParens: 'avoid'
+
+overrides:
+  - files: '*.module.css'
+    options:
+      parser: 'css'
+
+  - files: '*.html'
+    options:
+      parser: 'html'
+
+  - files: '.prettierrc'
+    options:
+      parser: 'yaml'
+
+  - files: '*.json'
+    options:
+      parser: 'json'
