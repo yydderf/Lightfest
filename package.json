@@ -13,6 +13,7 @@
   "dependencies": {
     "@phosphor-icons/react": "^2.0.10",
     "normalize.css": "^8.0.1",
+    "postcss-preset-env": "^8.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scroll-motion": "^0.3.2"
